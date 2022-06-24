@@ -1,0 +1,61 @@
+/* GENERAL STYLES */
+body {
+	font-family: 'Roboto';
+	font-size: 100%;
+}
+h1
+ {
+	color: #FFFFFF;
+	text-align: left;
+}
+p {
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}
+
+/* HEADER */
+.header {
+	padding: 50px 0;
+	background-color: #2C6161;
+	margin-bottom: 50px;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* MAIN PART */
+.collections {
+	overflow: auto;
+}
+.collection-item-outer {
+	display: inline-block;
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+.collections > div:first-child {
+	padding-left: 70;
+	padding-right: 0px;
+}
+.collections > div:last-child {
+	padding-right: 70;
+	padding-left: 0px;
+}
+.collection-item {
+	border: 1px solid #C4C4C4;
+	background-color: #C4C4C4;
+}
+
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+/* FOOTER */
+.footer {
+	background-color: #2C6161;
+	padding: 90px 0;
+	margin-top: 50px;
+}
